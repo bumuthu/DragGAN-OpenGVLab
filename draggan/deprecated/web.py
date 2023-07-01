@@ -20,28 +20,14 @@ SIZE_TO_CLICK_SIZE = {
 }
 
 CKPT_SIZE = {
-    'stylegan2-ffhq-config-f.pt': 1024,
-    'stylegan2-cat-config-f.pt': 256,
-    'stylegan2-church-config-f.pt': 256,
-    'stylegan2-horse-config-f.pt': 256,
-    'ada/ffhq.pt': 1024,
-    'ada/afhqcat.pt': 512,
-    'ada/afhqdog.pt': 512,
-    'ada/afhqwild.pt': 512,
-    'ada/brecahad.pt': 512,
-    'ada/metfaces.pt': 512,
-    'human/v2_512.pt': 512,
-    'human/v2_1024.pt': 1024,
-    'self_distill/bicycles_256.pt': 256,
-    'self_distill/dogs_1024.pt': 1024,
-    'self_distill/elephants_512.pt': 512,
-    'self_distill/giraffes_512.pt': 512,
-    'self_distill/horses_256.pt': 256,
-    'self_distill/lions_512.pt': 512,
-    'self_distill/parrots_512.pt': 512,
+    'stylegan2/stylegan2-ffhq-config-f.pkl': 1024,
+    'ada/ffhq.pkl': 1024,
+    'ada/metfaces.pkl': 512,
+    'human/stylegan_human_v2_512.pkl': 512,
+    'human/stylegan_human_v2_1024.pkl': 1024
 }
 
-DEFAULT_CKPT = 'self_distill/lions_512.pt'
+DEFAULT_CKPT = 'human/stylegan_human_v2_1024.pkl'
 
 
 class ModelWrapper:
